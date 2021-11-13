@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D3F0AC5127401E9600C86785 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F0AC5027401E9600C86785 /* UserView.swift */; };
 		D686D0DB271CFCD400CAAE76 /* SwiftZoomin8App.swift in Sources */ = {isa = PBXBuildFile; fileRef = D686D0DA271CFCD400CAAE76 /* SwiftZoomin8App.swift */; };
 		D686D0DD271CFCD400CAAE76 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D686D0DC271CFCD400CAAE76 /* ContentView.swift */; };
 		D686D0DF271CFCD500CAAE76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D686D0DE271CFCD500CAAE76 /* Assets.xcassets */; };
@@ -43,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D3F0AC5027401E9600C86785 /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
 		D686D0D7271CFCD400CAAE76 /* SwiftZoomin8.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftZoomin8.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D686D0DA271CFCD400CAAE76 /* SwiftZoomin8App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftZoomin8App.swift; sourceTree = "<group>"; };
 		D686D0DC271CFCD400CAAE76 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -112,7 +114,6 @@
 		D686D0D9271CFCD400CAAE76 /* SwiftZoomin8 */ = {
 			isa = PBXGroup;
 			children = (
-				D686D0DA271CFCD400CAAE76 /* SwiftZoomin8App.swift */,
 				D6AF3E372722D7DB00B8D02D /* AnyUIViewControllerRepresentable.swift */,
 				D6AF3E452723B8C000B8D02D /* BankAccount.swift */,
 				D686D0DC271CFCD400CAAE76 /* ContentView.swift */,
@@ -120,7 +121,9 @@
 				D6AF3E412723B19700B8D02D /* Counter2.swift */,
 				D6AF3E432723B1A200B8D02D /* Counter3.swift */,
 				D6AF3E332722D0EE00B8D02D /* Download.swift */,
+				D686D0DA271CFCD400CAAE76 /* SwiftZoomin8App.swift */,
 				D6AF3E352722D50A00B8D02D /* User.swift */,
+				D3F0AC5027401E9600C86785 /* UserView.swift */,
 				D6AF3E392722D83B00B8D02D /* UserViewController.swift */,
 				D6AF3E47272400A100B8D02D /* UserViewState.swift */,
 				D686D0DE271CFCD500CAAE76 /* Assets.xcassets */,
@@ -291,6 +294,7 @@
 				D6AF3E342722D0EE00B8D02D /* Download.swift in Sources */,
 				D6AF3E442723B1A200B8D02D /* Counter3.swift in Sources */,
 				D686D0DD271CFCD400CAAE76 /* ContentView.swift in Sources */,
+				D3F0AC5127401E9600C86785 /* UserView.swift in Sources */,
 				D6AF3E462723B8C000B8D02D /* BankAccount.swift in Sources */,
 				D686D0DB271CFCD400CAAE76 /* SwiftZoomin8App.swift in Sources */,
 				D6AF3E402723A9AB00B8D02D /* Counter1.swift in Sources */,
